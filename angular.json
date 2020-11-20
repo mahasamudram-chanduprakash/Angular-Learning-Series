@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "Angular-Learning-Series"
+  "defaultProject": "Angular-Learning-Series",
+  "cli": {
+    "analytics": "b1b75ee9-da32-4686-a12b-16670f780694"
+  }
 }
