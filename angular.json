@@ -31,9 +31,14 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -127,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "Angular-Learning-Series"
+  "defaultProject": "Angular-Learning-Series",
+  "cli": {
+    "analytics": "b1b75ee9-da32-4686-a12b-16670f780694"
+  }
 }
